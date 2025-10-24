@@ -50,3 +50,4 @@ Vă prezentăm pachetul pentru deploy.
 
 
 <input type="text" name="CAP2_R0120_C1" id="CAP2_R0120_C1" field="CAP2_R0120_C1" class="table number autofield float" readonly="readonly" maxlength="100" decimal_length="1" value="">
+<input type="text" name="CAP2_R0120_C1" id="CAP2_R0120_C1" field="CAP2_R0120_C1" class="table number autofield float" readonly="readonly" maxlength="100" decimal_length="1" value="">
