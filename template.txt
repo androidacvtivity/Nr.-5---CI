@@ -1,0 +1,52 @@
+Este validare Cod eroare: 01-115. Cap COSTURI. rind.0100 = rind.0101+0102+0103 (Col.1)  
+Dar este si autosuma Cap COSTURI. rind.0100  (Col.1)  care trebuie sa sumeze  rind.0101+0102+0103 (Col.1) 
+Dar autosuma nu lucreaza pe Cap COSTURI. rind.0100 = rind.0101+0102+0103 (Col.1)  
+
+1. Pana acum a lucrat si acum nu  lucrteaza. 
+2. Noi la platforma de productie nu avem acces. 
+3. La acest raport nu sa facut modificari  cu deploy din decembrie 2023 
+4. La noi el nu este nici pe test acum 5-ci-23 - Fiindca dupa cazul cu stergerea  tuturor rapoartelor de pe test - cand Dvs ati restabilit el nu a fost 
+si nu nu l-am adaugat fiindca nu am avut la el modificari. Acum pe test sunt 5-ci-22, si 5-ci.
+
+Deci modificarile  au aparut direct pe productie. Cuma  fost cu RSFPrescurtat - pe productie a revenit la versiunea precedenta si au aparut erori la perioada.
+
+Ce putem face noi. 
+1. sa-l restabilikm pe test cu ID - 5-ci-23.
+2. Sa verifica din nou. 
+3. Sa facem commit si brabch 
+4. Sa-l va prezentam pentru deploy.  
+
+
+
+
+//-----------------------------------------------------
+
+Subiect: Autosuma nu mai funcționează la „Cap. COSTURI” (r.0100, Col.1)
+
+Avem validarea Cod eroare: 01-115: Cap. COSTURI r.0100 = r.0101+0102+0103 (Col.1).
+Există și autosumă pentru Cap. COSTURI r.0100 (Col.1), care trebuie să calculeze r.0101+0102+0103 (Col.1), însă autosuma nu mai funcționează.
+
+Observații:
+
+Până acum a funcționat, acum nu.
+
+Nu avem acces pe producție.
+
+Pentru acest raport nu au fost deploy-uri din decembrie 2023.
+
+În test nu mai avem varianta 5-ci-23 (după incidentul cu ștergerea rapoartelor); în prezent sunt 5-ci-22 și 5-ci.
+
+Concluzie: modificările au apărut direct pe producție (similar cu RSF prescurtat, unde pe producție s-a revenit la o versiune anterioară și au apărut erori de perioadă).
+
+Propuneri: - Ce putem face noi. 
+
+Restaurăm în test raportul cu ID 5-ci-23.
+
+Verificăm din nou autosuma/validările.
+
+Facem branch + commit cu remedierea.
+
+Vă prezentăm pachetul pentru deploy.
+
+
+<input type="text" name="CAP2_R0120_C1" id="CAP2_R0120_C1" field="CAP2_R0120_C1" class="table number autofield float" readonly="readonly" maxlength="100" decimal_length="1" value="">
